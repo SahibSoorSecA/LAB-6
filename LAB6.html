@@ -20,8 +20,31 @@
                 for (let i = 0; i <= 10; i++) {
                   console.log(i);  
                 }
-                
-                
+                // Similar to the previous code, we are going to set our initialization, condition and iteration according to the task 
+                for (let i=0; i <= 5; i++) {
+                    // now we have to tell the code to multiply each iteration by 3, to get our 5 multiple values of 3 from 1-5
+                    let multiple = 3 * i; // we separate each line with ;
+                    // now we have to print the results with console 
+                    console.log (`Three times ${i} is ${multiple}`);
+                }
+                // First we must declare the function addNumbers and we specify two parameters for it 
+                function addNumbers(num1, num2) {
+                    // Now in the body we can specify the operation we want to perform 
+                return num1 + num2;
+                }
+                // now we call addNumbers and provide two values to add together
+                // then we use console.log to display our results
+                let addTotal = addNumbers(43, 26);
+                console.log ("Therefore", 43, "plus", 26, "equals", addTotal);
+                // now we do the same steps with a multiply function 
+                // first we decalre the function and set parameters
+                function multiplyNumbers (num1, num2) {
+                // next we define the operation we want to perform
+                    return num1 * num2;
+                }
+                // now we assign values and use console log to display the results 
+                let multiTotal = multiplyNumbers (23, 3) 
+                console.log ("Therefore", 23, "times", 3, "equlas", multiTotal )
                 
 
             </script>
